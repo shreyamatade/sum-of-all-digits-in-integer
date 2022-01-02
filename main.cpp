@@ -7,6 +7,8 @@ int main()
    cin>>num;
 
    int nd=floor(log10(num))+1; //no of digits in an integer
+    /* NOTE: here instead of log use to_string to find no of digits in integer*/
+
 
    for(int i=0;i<nd;i++)
    {
